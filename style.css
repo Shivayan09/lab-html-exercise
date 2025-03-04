@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid lightgray;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+}
+
+.logo {
+    width: 100px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+form button {
+    background-color: #fb3e44;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
+.sign-in {
+    color: black;
+}
+
+.sign-up {
+    background-color: #fb3e44;
+    color: white;
+    padding: 10px 15px;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: rgba(232, 217, 217, 0.3);
+    text-align: center;
+}
+
+.see-plans {
+    background-color: #FB3B49;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+}
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#section2 h2 {
+    background-color: rgba(255, 204, 53, 0.4);
+    font-style: italic;
+    transform: skew(9deg, 0deg);
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#section3 h2 {
+    color: #ED1C24;
+}
+
+.create-org {
+    background-color: #FB3B49;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2);
+}
